@@ -47,7 +47,7 @@ def accept_file(f, n):
     
     try:
         if not isinstance(n, (int, long)) or n == 0:
-            return 'PS3 - Syscon Firmware - ' if f.read(4) == '\x18\xF0\x9F\xE5' else 0
+            return 'PS3 - Syscon Full Firmware' if f.read(4) == '\x18\xF0\x9F\xE5' else 0
     
     except:
         pass
