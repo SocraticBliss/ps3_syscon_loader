@@ -9,3 +9,4 @@ Dedicated to zecoxao <3
 
 # Usage
 1) Load a PS3 Decrypted Syscon Full Firmware in IDA 32-bit
+2) Select the option ending with **[ps3_syscon.py]**
